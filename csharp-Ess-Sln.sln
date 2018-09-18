@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E648B6A6-FAE6-469D-9422-1AAEEBB086E8}"
+	ProjectSection(SolutionItems) = preProject
+		Rakefile = Rakefile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XDR", "XDR", "{ECBDF2AC-35E7-4F0F-9F6C-FD27574FC455}"
+	ProjectSection(SolutionItems) = preProject
+		src\xdr\Stellar-ledger-entries.x = src\xdr\Stellar-ledger-entries.x
+		src\xdr\Stellar-ledger.x = src\xdr\Stellar-ledger.x
+		src\xdr\Stellar-overlay.x = src\xdr\Stellar-overlay.x
+		src\xdr\Stellar-SCP.x = src\xdr\Stellar-SCP.x
+		src\xdr\Stellar-transaction.x = src\xdr\Stellar-transaction.x
+		src\xdr\Stellar-types.x = src\xdr\Stellar-types.x
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ess-Sdk", "src\Ess-Sdk\Ess-Sdk.csproj", "{4BE09292-F507-4EE2-8AD3-C5983F72A734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ess-Generated", "src\Ess-Generated\Ess-Generated.csproj", "{0FA7289E-A8BC-4D10-8EB0-520880AB9EDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaos.NaCl", "src\Chaos.NaCl\Chaos.NaCl\Chaos.NaCl.csproj", "{AE28FD14-7985-4707-A963-C94B8597AE50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ess-Tests", "src\Ess-Tests\Ess-Tests.csproj", "{712FA40B-C1E6-43AE-83DA-3BEA5D6851D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BE09292-F507-4EE2-8AD3-C5983F72A734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE09292-F507-4EE2-8AD3-C5983F72A734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE09292-F507-4EE2-8AD3-C5983F72A734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE09292-F507-4EE2-8AD3-C5983F72A734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA7289E-A8BC-4D10-8EB0-520880AB9EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA7289E-A8BC-4D10-8EB0-520880AB9EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA7289E-A8BC-4D10-8EB0-520880AB9EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA7289E-A8BC-4D10-8EB0-520880AB9EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE28FD14-7985-4707-A963-C94B8597AE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE28FD14-7985-4707-A963-C94B8597AE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE28FD14-7985-4707-A963-C94B8597AE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE28FD14-7985-4707-A963-C94B8597AE50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712FA40B-C1E6-43AE-83DA-3BEA5D6851D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712FA40B-C1E6-43AE-83DA-3BEA5D6851D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712FA40B-C1E6-43AE-83DA-3BEA5D6851D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712FA40B-C1E6-43AE-83DA-3BEA5D6851D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
